@@ -1,0 +1,78 @@
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(118,109,109)
+}
+#heading{
+    text-align: center;
+}
+.colr{
+    color: lightpink;
+}
+#first {
+    height: 17px;
+    width: 45%;
+    background-color: red;
+    float: left;
+}
+
+#second {
+    height: 17px;
+    width: 55%;
+    background-color: blue;
+    float: left;
+}
+.gree{
+    background-color: green;
+    height: 17px;
+    width: 100%;
+}
+#st{
+    height: 17px;
+    width: 95%;
+    background-color:green;
+    float: left;
+}
+.std{
+    height: 17px;
+    width: 5%;
+    background-color: blue;
+    float: left;
+}
+#mid{
+    height: 17px;
+    width: 90%;
+    background-color:green;
+    float: left;
+}
+#dt{
+    height: 17px;
+    width: 95%;
+    background-color:red;
+    float: left;
+}
+#ft{
+    height: 17px;
+    width: 90%;
+    background-color:red;
+    float: left;
+}
+#rt{
+    height: 17px;
+    width: 95%;
+    background-color:blue;
+    float: left;
+}
+#et{
+    height: 17px;
+    width: 5%;
+    background-color:green;
+    float: left;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+   
+}

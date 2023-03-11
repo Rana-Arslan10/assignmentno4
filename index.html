@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Home</a>&ensp;
+            <a href="./index.html">Lectures</a>&ensp;
+            <a href="./index.html">Assignments</a>&ensp;
+            <a href="./index.html">Final Project</a>&ensp;
+            <a href="./index.html">Labs</a>&ensp;
+            <a href="./index.html">Docs</a>&ensp;
+        </nav>
+    </header>
+    <main>
+        <div id="heading">
+            <h1>Assignment 4:Static Web Page:HTML/CSS</h1>
+            <p>Sunday,january 9, 12:00 PM PST</p>
+        </div>
+        <h1>Setup</h1>
+        <p>Accept the Github Classroom  <span class="colr">assignment</span>  and clone this repo that contains stencil code for assignment 4.</p>
+        <h1>Introduction</h1>
+        <p>This is a multi-part assignment with the objective of making you comfertable working with HTML and CSS. By the end of this assignment, you will have styled some rectangular blocks and created a simple version of Twiiter's home page.  <br><br>
+        if this assignment seems overhelming to you, please come see a TA at TA hours to talk through some strategies for tackling it.We except this assignment to be a time-consuming assignment as we cover a lot of fundamental techniques.
+        But with a good strategy, it can be finished in a reasonable amount of time. <br><br>
+        Note:Only HTML and CSS will be used for this assignment.If you want to use Javascript(or libraries such as JQuery)than feel free to, but we will only be grading correctness on your CSS and HTML.
+        <br><br>
+        if you can,<b>Start Early!.</b></p>
+        <h1>Part 1</h1>
+        <h2>Specifications</h2>
+        <p>Now that you understand some of the basic of HTML and CSS.Let take a look how to align HTML elements.There are multiple ways to align HTML elements, but in this part,we recommend using flexboxes as they are widely used in modren web development(for example Bootstrap V4 is built on top of flexboxes) <br><br>
+            Refer to this great webpage on how use flexboxes: <span class="colr">CSS Flexbox Guide.</span> <br><br>
+        Also feel to use online resources such as Stack Overflow,MDN,W3,and Google for reference. <br><br>
+        When you open the provided HTML file part1/index.html,it should look like this:
+        </p>
+        <h3>Assignment 1</h3>
+        <h3>Provided Example </h3>
+        <h3>Row 1</h3>
+        <div id="first"></div>
+        <div id="second"></div><br>
+        <h3>Row 2</h3>
+        <div class="gree"></div>
+        <h3>Row 3</h3>
+        <div class="gree"></div>
+        <h3>Row 4</h3>
+        <div class="gree"></div>
+        <h3>Row 5</h3>
+        <div class="gree"></div>
+        <h3>Row 6</h3>
+        <div class="gree"></div>
+        <h3>Row 7</h3>
+        <div class="gree"></div>
+        <h3>Row 8</h3>
+        <div id="first"></div>
+        <div id="second"></div><br>
+        <h2>Students To Do</h2>
+        <h3>Row 1</h3>
+        <div id="st"></div>
+        <div class="std"></div><br>
+        <h3>Row 2</h3>
+        <div class="std"></div>
+        <div id="mid"></div>
+        <div class="std"></div><br>
+        <h3>Row 3</h3>
+        <div id="dt"></div>
+        <div class="std"></div><br>
+        <h3>Row 4</h3>
+        <div class="std"></div>
+        <div id="ft"></div>
+        <div class="std"></div><br>
+        <h3>Row 5</h3>
+        <div id="rt" ></div>
+        <div id="et"></div><br>
+        <ol>
+            <li>For the third row, the red and blue end rectangules should remain the same widht, and the green space shrink.Possible Approach: Have a div with a red background and a div with a blue background, both with fixed widht.Use an appropriate value for <span class="colr"> Justify Content</span>.</li>
+            <li>For the fourth row, the blue end rectangle should remain the same widht, and the red reactangle should shrink.Possible approach: Have a div with a red background and a div with a blue background.Have a fixed with on the blue div.Use Flex Grow.</li>
+            <li>For the fifth row, the red square should remain the same size, but always remain in the center of green rectangle. Hint: Think about how to keep a div fixed size and how to align something in the absolute center of the parent element.</li>
+            <li>For seventh row, the red rectangle should remain same width.Hint: Nest divs and use <span class="colr">background-color: transparent.</span> </li>
+            <li>For eighth row, the orange rectangles should remain the same the same widht while the orange rectangles narrow.</li>
+        </ol>
+        <p>
+            The examples we providedwith the first two rectangular blocks use flexboxes. You are not required to use flesboxes for the 7 rows, but we recommend it as it will also be useful in part 2 of this assignment. <br><br>
+            You should only have to use the div html elementto complete this assignment. Also, none of the divs you creat inside of the provided wrapper divs should be <span class="colr">have background-color: green;</span> <br><br>
+            You are not requiredto use Bootstrap in this part.You can use if you want, bute actully recommend writting plain CSS. Just for this part, inline CSS is acceptable, but you should generally avoid using inline CSS in future.
+        </p>
+        <h1>General Notes</h1>
+        <p>As a remainder, it's a good idea to run your HTML and CSS syntax through validators.</p>
+        <h1>Troubleshooting</h1>
+        <p>There are hundreds of HTML and CSS tags, propertities, and values, and we do not expect students to learn each one by heart. However, this assignment and the first lab are intended for you to intuitively understand the languages, and to be proficient at knowing how to tackle a design by the end of the semester. <br>
+            If you're having problems, there are many guides on HTML and CSS online (CSSTricks and MDN are your friends), as well as on our resources page. <br>
+            As always, if you are stuck on a particular part, you can always talk to the friendly TAs or ask questions on course piazza(check your email for a signup link). <br>
+            As a general rule of thumb, do not expect TAs to be able to solve every web problem you have. Even the most adept web developer can struggle a lot with specific CSS rules to use.
+        </p>
+    </main>
+    <footer>
+       <p> &copy;2023.All Rights Reserved. <br><br>Rana Arslan</p>
+    </footer>
+    </body>
+</html>
